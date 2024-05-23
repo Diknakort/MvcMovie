@@ -27,7 +27,7 @@ namespace MvcMovie.Migrations
                     table.PrimaryKey("PK_Movie", x => x.Id);
                 });
         }
-
+         
         /// <inheritdoc />
         protected override void Down(MigrationBuilder migrationBuilder)
         {
